@@ -10,6 +10,7 @@
     --color-amber-50: oklch(98.7% 0.022 95.277);
     --color-amber-200: oklch(92.4% 0.12 95.746);
     --spacing: 0.25rem;
+    --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -364,6 +365,18 @@
   .gap-8 {
     gap: calc(var(--spacing) * 8);
   }
+  .gap-\[5px\] {
+    gap: 5px;
+  }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
+  .gap-\[40px\] {
+    gap: 40px;
+  }
+  .gap-\[60px\] {
+    gap: 60px;
+  }
   .rounded-\[4px\] {
     border-radius: 4px;
   }
@@ -389,6 +402,9 @@
   .bg-\[\#ffffff\] {
     background-color: #ffffff;
   }
+  .bg-\[rgba\(255\,66\,66\,0\.2\)\] {
+    background-color: rgba(255,66,66,0.2);
+  }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
   }
@@ -397,6 +413,15 @@
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-\[40px\] {
+    padding-inline: 40px;
+  }
+  .py-\[10px\] {
+    padding-block: 10px;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
   }
   .text-center {
     text-align: center;
@@ -430,6 +455,10 @@
   .font-\[900\] {
     --tw-font-weight: 900;
     font-weight: 900;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
   }
   .text-\[\#9A9CA5\] {
     color: #9A9CA5;
