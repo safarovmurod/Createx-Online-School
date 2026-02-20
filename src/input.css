@@ -16,7 +16,6 @@ body {
 }
 
 .btn {
-    padding: 14px 118px;
     color: #FFFFFF;
     background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
     font-size: 16px;
@@ -24,10 +23,10 @@ body {
 }
 
 .btn2 {
-    padding: 14px 118px;
     color: #F75E05;
-    border: 1px solid  #FF3F3A;
+    border: 1px solid  #ff403ac9;
     font-size: 16px;
+    background-color: transparent;
     cursor: pointer;
 }
 
