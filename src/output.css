@@ -251,6 +251,12 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-25 {
+    margin-top: calc(var(--spacing) * 25);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
   }
@@ -289,6 +295,9 @@
   }
   .h-\[84\] {
     height: 84;
+  }
+  .h-\[90px\] {
+    height: 90px;
   }
   .h-\[126px\] {
     height: 126px;
@@ -344,7 +353,9 @@
   .w-600 {
     width: calc(var(--spacing) * 600);
   }
-
+  .w-\[-\] {
+    width: -;
+  }
   .w-\[0px\] {
     width: 0px;
   }
@@ -627,7 +638,9 @@
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
   }
-
+  .bg-\[\#fffff\] {
+    background-color: #fffff;
+  }
   .bg-\[\#ffffff\] {
     background-color: #ffffff;
   }
