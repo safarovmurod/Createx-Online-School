@@ -163,14 +163,11 @@
   .start {
     inset-inline-start: var(--spacing);
   }
-  .h-64 {
-    height: calc(var(--spacing) * 64);
+  .h-\[500px\] {
+    height: 500px;
   }
   .w-full {
     width: 100%;
-  }
-  .bg-\[linear-gradient\(55\.95deg\,_\#FF3F3A_0\%\,_\#F75E05_100\%\)\] {
-    background-image: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
   }
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -212,5 +209,5 @@ h1, h2, h3 {
   padding: 0 20px;
 }
 .bgmain {
-  background: linear-gradient(55.95deg, #e77975 0%, #f75e057a 100%);
+  background: linear-gradient(55.95deg, #e7797567 0%, #f75e0538 100%);
 }
