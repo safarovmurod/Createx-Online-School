@@ -163,12 +163,6 @@
   .start {
     inset-inline-start: var(--spacing);
   }
-  .h-\[500px\] {
-    height: 500px;
-  }
-  .w-full {
-    width: 100%;
-  }
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body {
@@ -178,7 +172,7 @@ body {
   color: #424551;
 }
 .active {
-  color: #1E212C;
+  color: #FF3F3A;
 }
 .btn {
   padding: 14px 118px;
