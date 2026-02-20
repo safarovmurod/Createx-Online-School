@@ -50,3 +50,7 @@ h3 {
     margin: 0 auto;
     padding: 0 20px;
 }
+.bgmain{
+    background: linear-gradient(55.95deg, #e77975 0%, #f75e057a 100%);
+
+}
