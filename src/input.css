@@ -21,7 +21,6 @@ body {
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 .btn2 {
@@ -31,7 +30,6 @@ body {
     font-size: 16px;
     background-color: transparent;
     cursor: pointer;
-    border-radius: 4px;
 }
 
 img {

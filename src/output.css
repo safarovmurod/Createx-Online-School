@@ -181,26 +181,11 @@
       max-width: 96rem;
     }
   }
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
-  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-30 {
-    margin-top: calc(var(--spacing) * 30);
-  }
-  .mt-50 {
-    margin-top: calc(var(--spacing) * 50);
-  }
   .flex {
     display: flex;
-  }
-  .h-44 {
-    height: calc(var(--spacing) * 44);
   }
   .h-235 {
     height: calc(var(--spacing) * 235);
@@ -210,12 +195,6 @@
   }
   .h-\[52px\] {
     height: 52px;
-  }
-  .w-161 {
-    width: calc(var(--spacing) * 161);
-  }
-  .w-390 {
-    width: calc(var(--spacing) * 390);
   }
   .w-\[148px\] {
     width: 148px;
@@ -232,9 +211,6 @@
   .w-\[486px\] {
     width: 486px;
   }
-  .w-\[496px\] {
-    width: 496px;
-  }
   .w-full {
     width: 100%;
   }
@@ -250,9 +226,6 @@
   .justify-between {
     justify-content: space-between;
   }
-  .gap-0 {
-    gap: calc(var(--spacing) * 0);
-  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -265,14 +238,8 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
-  .gap-7 {
-    gap: calc(var(--spacing) * 7);
-  }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
-  }
-  .rounded-\[4px\] {
-    border-radius: 4px;
   }
   .text-\[\#424551\] {
     color: #424551;
@@ -294,7 +261,6 @@ body {
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
-  border-radius: 4px;
 }
 .btn2 {
   color: #F75E05;
@@ -303,7 +269,6 @@ body {
   font-size: 16px;
   background-color: transparent;
   cursor: pointer;
-  border-radius: 4px;
 }
 img {
   max-width: 100%;
