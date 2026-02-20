@@ -251,6 +251,12 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-25 {
+    margin-top: calc(var(--spacing) * 25);
+  }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
   }
@@ -289,6 +295,9 @@
   }
   .h-\[84\] {
     height: 84;
+  }
+  .h-\[90px\] {
+    height: 90px;
   }
   .h-\[126px\] {
     height: 126px;
@@ -389,6 +398,9 @@
   .w-\[285px\] {
     width: 285px;
   }
+  .w-\[300px\] {
+    width: 300px;
+  }
   .w-\[307\] {
     width: 307;
   }
@@ -482,6 +494,12 @@
   .w-full {
     width: 100%;
   }
+  .max-w-\[280px\] {
+    max-width: 280px;
+  }
+  .max-w-\[350px\] {
+    max-width: 350px;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -548,8 +566,20 @@
   .gap-15 {
     gap: calc(var(--spacing) * 15);
   }
+  .gap-\[2px\] {
+    gap: 2px;
+  }
   .gap-\[5px\] {
     gap: 5px;
+  }
+  .gap-\[8px\] {
+    gap: 8px;
+  }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+  .gap-\[12px\] {
+    gap: 12px;
   }
   .gap-\[30px\] {
     gap: 30px;
@@ -567,6 +597,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-1 {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-\[1px\] {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -580,6 +614,12 @@
   .border-\[\#E5E8ED\] {
     border-color: #E5E8ED;
   }
+  .border-\[\#FFFFFF33\] {
+    border-color: #FFFFFF33;
+  }
+  .bg-\[\#1E212C\] {
+    background-color: #1E212C;
+  }
   .bg-\[\#03CEA4\] {
     background-color: #03CEA4;
   }
@@ -592,6 +632,9 @@
   .bg-\[\#FFCF2D\] {
     background-color: #FFCF2D;
   }
+  .bg-\[\#FFFFFF1F\] {
+    background-color: #FFFFFF1F;
+  }
   .bg-\[\#FFFFFF\] {
     background-color: #FFFFFF;
   }
@@ -603,6 +646,9 @@
   }
   .bg-\[rgba\(255\,66\,66\,0\.2\)\] {
     background-color: rgba(255,66,66,0.2);
+  }
+  .bg-\[rgba\(255\,255\,255\,0\.05\)\] {
+    background-color: rgba(255,255,255,0.05);
   }
   .bg-amber-50 {
     background-color: var(--color-amber-50);
@@ -625,6 +671,9 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .p-\[10px\] {
+    padding: 10px;
+  }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
   }
@@ -642,6 +691,9 @@
   }
   .py-\[20px\] {
     padding-block: 20px;
+  }
+  .py-\[80px\] {
+    padding-block: 80px;
   }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
@@ -707,6 +759,9 @@
   }
   .text-\[\#FF4242\] {
     color: #FF4242;
+  }
+  .text-\[\#FFFFFF70\] {
+    color: #FFFFFF70;
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
